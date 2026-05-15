@@ -1,0 +1,17 @@
+{
+  "name": "mi-lottery-analytics",
+  "version": "1.0.0",
+  "description": "Michigan Lottery Analytics — Daily 3 & Daily 4",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:win": "electron-packager . \"MI Lottery Analytics\" --platform=win32 --arch=x64 --out=dist --overwrite --app-version=1.0.0 --executable-name=\"MI Lottery Analytics\" --ignore=node_modules/electron$ --ignore=dist --asar"
+  },
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "@electron/packager": "^18.3.5"
+  },
+  "keywords": ["lottery", "michigan", "daily3", "daily4", "analytics"],
+  "author": "MI Lottery Analytics",
+  "license": "MIT"
+}
